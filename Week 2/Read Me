@@ -1,0 +1,61 @@
+## Python Task Series - Lecture 2
+
+- This repository contains the Python coding exercises from Lecture 2
+which cover fundamental programming concepts such as control flow, 
+data filtering, list management, and unit conversion.
+
+## Getting Started
+
+### Prerequisites
+- Python 3.x installed on your system.
+- A code editor or IDE (such as Visual Studio Code, PyCharm, or Jupyter Notebook) for running the scripts.
+
+### How to Clone the Repository
+1. Clone this repository to your local machine using the following command:
+   ```bash
+   git clone https://github.com/dannyjpace/Git-Hub-Main-Portfolio/Week2/Read_Me.git
+
+## Task 1 - FizzBuzz
+- Task Overview
+The FizzBuzz problem is a common programming challenge that requires printing numbers from 1 to n, while following these rules:
+
+If a number is divisible by 3, print "Fizz".
+If a number is divisible by 5, print "Buzz".
+If a number is divisible by both 3 and 5, print "FizzBuzz".
+For all other numbers, print the number itself.
+
+- Code Walkthrough
+1. The function fizzbuzz(n) iterates through all numbers from 1 to n.
+2. It checks if a number is divisible by 3 and 5 using the modulus operator %.
+3. Based on the conditions, it prints "Fizz", "Buzz", or "FizzBuzz", or the number itself.
+
+## Task 2 - Basic Data Filtering
+- Task Overview
+This task demonstrates how to filter data based on type. The script processes a mixed list containing various data types and outputs only the integers.
+
+- Code Walkthrough
+1. The mixed_data list contains values of different types (integers, strings, floats).
+2. The filtering is done using a list comprehension, where the isinstance() function checks if each element is an integer.
+3. The filtered integers are then printed out.
+
+## Task 3 - Simple To-Do List
+- Task Overview
+In this task, you build a simple command-line to-do list application, where users can:
+
+Add tasks.
+Display the tasks in a formatted manner.
+
+- Code Walkthrough
+1. The list todo_list stores all tasks.
+2. The function add_task() adds a task to the list.
+3. The function show_tasks() displays the current to-do list, formatting it with an index for each task.
+
+4 - Celsius to Fahrenheit Conversion
+- Task Overview
+This task involves writing a Python function to convert temperatures from Celsius to Fahrenheit using the formula:
+°F = (°C * 9/5) + 32
+The task helps practice writing functions and using loops for list iteration.
+
+- Code Walkthrough
+1. The function celsius_to_fahrenheit() takes a temperature in Celsius and returns the equivalent Fahrenheit temperature.
+2. The for loop iterates over a list of temperatures in Celsius, converts each to Fahrenheit, and prints the result.
